@@ -1,0 +1,85 @@
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.portfolio--container {
+  display: grid;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2em;
+  img {
+    border-radius: 10px;
+    // max-width: 340px;
+  }
+
+  gap: 3rem;
+
+  .project--card {
+    position: relative;
+    transition: all 500ms linear;
+    height: 250px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    padding: 1em;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    h3 {
+      text-align: center;
+      color: white;
+      text-transform: capitalize;
+      letter-spacing: 0.1rem;
+    }
+  }
+  .overlay {
+    position: absolute;
+    // height: 200px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    background-color: black;
+    border-radius: 10px;
+    transition: all 500ms linear;
+    cursor: pointer;
+  }
+  .portfolio--content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    h3 {
+      font-size: 2rem;
+      color: white;
+    }
+    a {
+      display: grid;
+      place-items: center;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      &:hover {
+        color: #9e221f;
+      }
+    }
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2em;
+    }
+  }
+  .overlay:hover {
+    opacity: 0.9;
+  }
+}
