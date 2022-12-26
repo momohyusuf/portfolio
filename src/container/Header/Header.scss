@@ -76,8 +76,10 @@
 
     p {
       width: 100%;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      text-align: right;
+      text-align: center;
+      font-weight: bold;
     }
   }
 
@@ -168,7 +170,6 @@
 .app__header-img {
   flex: 1;
   height: 100%;
-
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -189,7 +190,7 @@
     bottom: 0;
     z-index: 0;
     width: 100%;
-    height: 90%;
+    height: 100%;
   }
 
   @media screen and (max-width: 1200px) {
@@ -202,4 +203,42 @@ h1 {
   background: linear-gradient(to left, #4b23cf 21%, #210303 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #4b23cf 0%,
+    #01124f 51%,
+    #4b23cf 100%
+  );
+  font-family: inherit;
+  margin: 5px;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: 0;
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (min-width: 565px) {
+  .btn-grad {
+    padding: 10px 30px;
+  }
 }

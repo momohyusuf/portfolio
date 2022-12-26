@@ -97,7 +97,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #9e221f;
+  background-color: #4b23cf;
 
   svg {
     width: 70%;
@@ -111,17 +111,13 @@
     bottom: 0;
     right: 0;
     z-index: 5;
-
     padding: 1rem;
-
     width: 80%;
     height: 100vh;
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
     background: url('../../assets/bgWhite.png');
     background-color: var(--white-color);
     background-size: cover;
@@ -175,42 +171,5 @@
 
   @media screen and (min-width: 900px) {
     display: none;
-  }
-}
-
-.btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #0575e6 0%,
-    #021b79 51%,
-    #0575e6 100%
-  );
-  margin: 5px;
-  padding: 7px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-  border: 0;
-  cursor: pointer;
-  a {
-    text-decoration: none;
-    color: white;
-  }
-}
-
-.btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
-}
-@media screen and (min-width: 565px) {
-  .btn-grad {
-    padding: 10px 30px;
   }
 }

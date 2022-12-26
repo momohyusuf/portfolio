@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        Momoh <span style={{ color: '#9e221f' }}>Yusuf</span>
+        Momoh <span style={{ color: '#4b23cf' }}>Yusuf</span>
       </div>
       <ul className="app__navbar-links">
         {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (
@@ -21,14 +21,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <button className="btn-grad">
-        <a
-          href="https://drive.google.com/file/d/1y2aRhiUacm9f5pVOBMfE9iswC4917jcO/view?usp=sharing"
-          download
-        >
-          Download CV
-        </a>
-      </button>
 
       <div className="app__navbar-menu">
         <GiHamburgerMenu onClick={() => setToggle(true)} />

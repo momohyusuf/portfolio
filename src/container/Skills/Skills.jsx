@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import { skilledAt, experience } from '../../skilledAt';
+import { skilledAt, experience } from '../../data/skilledAt';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 

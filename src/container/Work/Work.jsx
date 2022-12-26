@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Work.scss';
-import { portfolio } from '../../portfolio';
+import { portfolio } from '../../data/portfolio';
 
 const Work = () => {
   const [selectedId, setSelectedId] = useState(null);
@@ -20,7 +20,7 @@ const Work = () => {
           textAlign: 'center',
         }}
       >
-        Projects I've <span>Worked</span> On
+        Projects I've <span>Worked</span> On.
       </h2>
 
       <motion.div
