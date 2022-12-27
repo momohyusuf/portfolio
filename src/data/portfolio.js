@@ -2,7 +2,7 @@ export const portfolio = [
   {
     id: 1,
     imgUrl:
-      'https://res.cloudinary.com/starkweb/image/upload/v1671827571/my%20portfolio%20projects/images/Web_capture_23-12-2022_21324_suffywater.netlify.app_k91lfc.jpg',
+      'https://res.cloudinary.com/starkweb/image/upload/v1672135451/my%20portfolio%20projects/images/Web_capture_27-12-2022_11215_localhost_ac3b1j.jpg',
     name: 'Suffy Water',
     projectLink: 'https://suffywater.netlify.app/',
     codeLink: 'https://github.com/starkweb108/suffy-water-clientSide.git',
