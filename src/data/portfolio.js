@@ -5,7 +5,7 @@ export const portfolio = [
       'https://res.cloudinary.com/starkweb/image/upload/v1672135451/my%20portfolio%20projects/images/Web_capture_27-12-2022_11215_localhost_ac3b1j.jpg',
     name: 'Suffy Water',
     projectLink: 'https://suffywater.netlify.app/',
-    codeLink: 'https://github.com/starkweb108/suffy-water-clientSide.git',
+    codeLink: 'https://github.com/momohyusuf/suffy-water-clientSide.git',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const portfolio = [
     imgUrl:
       'https://res.cloudinary.com/starkweb/image/upload/v1671827418/my%20portfolio%20projects/images/ecom-dashboard_oigjo0.jpg',
     projectLink: 'https://ecom-dashboardd.netlify.app/',
-    codeLink: 'https://github.com/starkweb108/Dashboard.git',
+    codeLink: 'https://github.com/momohyusuf/Dashboard.git',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const portfolio = [
     imgUrl:
       'https://res.cloudinary.com/starkweb/image/upload/v1671827417/my%20portfolio%20projects/images/note-keeper_auivxj.jpg',
     projectLink: 'https://note-keeperr.netlify.app/',
-    codeLink: 'https://github.com/starkweb108/Note-keeper.git',
+    codeLink: 'https://github.com/momohyusuf/Note-keeper.git',
   },
 
   {
@@ -30,7 +30,7 @@ export const portfolio = [
     imgUrl:
       'https://res.cloudinary.com/starkweb/image/upload/v1671827417/my%20portfolio%20projects/images/twee-snapshot_ygtpio.jpg',
     projectLink: 'https://tweet-snapshoot.onrender.com/',
-    codeLink: 'https://github.com/starkweb108/Tweet-Snapshoot.git',
+    codeLink: 'https://github.com/momohyusuf/Tweet-Snapshoot.git',
   },
 
   //       {
@@ -58,7 +58,7 @@ export const portfolio = [
     imgUrl:
       'https://res.cloudinary.com/starkweb/image/upload/v1671827416/my%20portfolio%20projects/images/advice-app_mbim8k.jpg',
     projectLink: 'https://quotes-generating.netlify.app/',
-    codeLink: 'https://github.com/starkweb108/Random-quote-generator.git',
+    codeLink: 'https://github.com/momohyusuf/Random-quote-generator.git',
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ export const portfolio = [
       'https://res.cloudinary.com/starkweb/image/upload/v1671827418/my%20portfolio%20projects/images/loopstudio_mo5o43.jpg',
     projectLink: 'https://starkwebproject10.netlify.app/',
     codeLink:
-      'https://github.com/starkweb108/Frontend-Mentor-Loopstudios-landing-page.git',
+      'https://github.com/momohyusuf/Frontend-Mentor-Loopstudios-landing-page.git',
   },
 
   {
@@ -76,6 +76,6 @@ export const portfolio = [
     imgUrl:
       'https://res.cloudinary.com/starkweb/image/upload/v1671827416/my%20portfolio%20projects/images/bookmark-landing_wwhjsn.jpg',
     projectLink: 'https://bookmarking-landing-page.netlify.app/',
-    codeLink: 'https://github.com/starkweb108/bookmark-landing-page-master.git',
+    codeLink: 'https://github.com/momohyusuf/bookmark-landing-page-master.git',
   },
 ];
