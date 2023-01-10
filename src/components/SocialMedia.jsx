@@ -20,7 +20,7 @@ const SocialMedia = () => (
     </div>
     <div>
       <a
-        href="https://github.com/starkweb108"
+        href="https://github.com/momohyusuf"
         target="_blank"
         rel="noopener noreferrer"
       >
