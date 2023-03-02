@@ -47,11 +47,11 @@ export const skilledAt = [
 export const experience = [
   {
     startYear: '2020',
-    endYear: 'DATE',
+    endYear: 'Present',
     works: [
       {
+        company: 'Starkweb Technologies / Abuja Nigeria',
         name: 'MERN Stack Developer',
-        company: 'Freelancer. / Remote',
         desc: `Converted various designs to actual code with HTML, CSS, JavaScript, React JS, Next.js, and REST API.`,
       },
     ],
