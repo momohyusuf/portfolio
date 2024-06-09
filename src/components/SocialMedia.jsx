@@ -1,21 +1,23 @@
-import React from 'react';
+import React from "react";
 import {
   IoLogoTwitter,
   IoLogoGithub,
   IoLogoLinkedin,
   IoCallSharp,
-} from 'react-icons/io5';
-import { IoIosMail } from 'react-icons/io';
+} from "react-icons/io5";
+import { IoIosMail } from "react-icons/io";
 
 const SocialMedia = () => (
   <div className="app__social">
     <div>
       <a
-        href="https://twitter.com/starkweb911"
+        href="https://x.com/yusufmomohh"
         target="_blank"
         rel="noopener noreferrer"
       >
         <IoLogoTwitter />
+
+        <span>X</span>
       </a>
     </div>
     <div>
@@ -25,6 +27,7 @@ const SocialMedia = () => (
         rel="noopener noreferrer"
       >
         <IoLogoGithub />
+        <span>GITHUB</span>
       </a>
     </div>
     <div>
@@ -34,6 +37,7 @@ const SocialMedia = () => (
         rel="noopener noreferrer"
       >
         <IoLogoLinkedin />
+        <span>LINKEDIN</span>
       </a>
     </div>
     <div>
@@ -43,11 +47,13 @@ const SocialMedia = () => (
         rel="noopener noreferrer"
       >
         <IoIosMail />
+        <span>EMAIL</span>
       </a>
     </div>
     <div>
       <a href="tel:+2347067435729" target="_blank" rel="noopener noreferrer">
         <IoCallSharp />
+        <span>CALL</span>
       </a>
     </div>
   </div>

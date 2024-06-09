@@ -1,59 +1,113 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
-import { skilledAt, experience } from '../../data/skilledAt';
+import { mobile, frontend, backend, Database } from "../../data/skilledAt";
 
-import { AppWrap, MotionWrap } from '../../wrapper';
+import { AppWrap, MotionWrap } from "../../wrapper";
 
-import './Skills.scss';
-import Experiences from './Experiences';
+import "./Skills.scss";
 
 const Skills = () => {
+  const [skill, setSkills] = React.useState([
+    "Frontend",
+    "Backend",
+    "Database",
+    "Mobile",
+  ]);
+  const [currentTab, setCurrentTab] = React.useState(frontend);
+  const [selectedTab, setSelectedTab] = React.useState("Frontend");
+  const updateTab = (tab) => {
+    switch (tab) {
+      case "Frontend":
+        setCurrentTab(frontend);
+        setSelectedTab("Frontend");
+        break;
+      case "Backend":
+        setCurrentTab(backend);
+        setSelectedTab("Backend");
+        break;
+      case "Database":
+        setCurrentTab(Database);
+        setSelectedTab("Database");
+        break;
+      case "Mobile":
+        setCurrentTab(mobile);
+        setSelectedTab("Mobile");
+        break;
+      default:
+        setCurrentTab(frontend);
+    }
+  };
+
   return (
     <>
       <h2 className="head-text">
-        Skills{' '}
+        Skills
         <span
           style={{
-            color: '#4b23cf',
+            color: "#4b23cf",
           }}
         >
           &
-        </span>{' '}
-        Experiences
+        </span>
+        Tools
       </h2>
-
-      <div className="app__skills-container">
-        <motion.div className="app__skills-list">
-          {skilledAt.map((skill, index) => (
+      <section className="skills__tab">
+        {skill.map((skill, index) => {
+          return (
             <motion.div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              whileHover={{ opacity: [1, 0.4] }}
+              transition={{ duration: 0.3 }}
+              className="app__skills-item"
               key={index}
+              onClick={() => updateTab(skill)}
             >
-              <div
-                className="app__flex"
-                style={{
-                  backgroundColor: 'whitesmoke',
-                  boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px',
-                }}
+              <p
+                className={`p-text ${skill === selectedTab && "current__tab"}`}
               >
-                <img src={skill.icon} alt={skill.name} />
-              </div>
-              <p className="p-text">{skill.name}</p>
+                {skill}
+              </p>
             </motion.div>
-          ))}
-        </motion.div>
-        {/* experience */}
-        <Experiences experience={experience} />
-      </div>
+          );
+        })}
+      </section>
+
+      {/* skills display */}
+      {skillsDisplay(currentTab)}
     </>
   );
 };
 
 export default AppWrap(
-  MotionWrap(Skills, 'app__skills'),
-  'skills',
-  'app__whitebg'
+  MotionWrap(Skills, "app__skills"),
+  "skills",
+  "app__whitebg"
 );
+
+const skillsDisplay = (skills) => {
+  return (
+    <div className="app__skills-container">
+      <motion.div className="app__skills-list">
+        {skills.map((skill, index) => (
+          <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 0.5 }}
+            className="app__skills-item app__flex"
+            key={index}
+          >
+            <div
+              className="app__flex"
+              style={{
+                backgroundColor: skill.skillBgColor,
+                boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px",
+              }}
+            >
+              <img src={skill.icon} alt={skill.name} />
+            </div>
+            <p className="p-text">{skill.name}</p>
+          </motion.div>
+        ))}
+      </motion.div>
+    </div>
+  );
+};

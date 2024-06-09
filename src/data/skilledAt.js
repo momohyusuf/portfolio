@@ -1,81 +1,100 @@
-import { images } from '../constants';
+import { images } from "../constants";
 
-export const skilledAt = [
+export const frontend = [
   {
-    name: 'HTML',
+    name: "HTML",
     icon: images.html,
+    skillBgColor: "#f165295f",
   },
   {
-    name: 'CSS',
+    name: "CSS",
     icon: images.css,
+    skillBgColor: "#2965f142",
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: images.javascript,
+    skillBgColor: "#f0db4f5f",
   },
   {
-    name: 'React',
+    name: "TypeScript",
+    icon: images.typescript,
+    skillBgColor: "#007acc5f",
+  },
+  {
+    name: "React",
     icon: images.react,
-  },
-  {
-    name: 'Redux',
-    icon: images.redux,
-  },
-  {
-    name: 'Next.js',
-    icon: 'https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png',
-  },
-  {
-    name: 'SASS',
-    icon: images.sass,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: 'https://iconape.com/wp-content/files/an/351546/png/tailwind-css-logo.png',
+    skillBgColor: "#61dbfb5f",
   },
 
   {
-    name: 'Node.js',
-    icon: images.node,
+    name: "Next.js",
+    icon: "https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png",
+    skillBgColor: "#ffffff57",
+  },
+
+  {
+    name: "SASS",
+    icon: images.sass,
+    skillBgColor: "#cc669945",
   },
   {
-    name: 'MongoDB',
-    icon: 'https://th.bing.com/th/id/OIP.8ed3pq7vOLGNGnoXAs6lmwHaFG?pid=ImgDet&rs=1',
+    name: "Tailwind CSS",
+    icon: "https://iconape.com/wp-content/files/an/351546/png/tailwind-css-logo.png",
+    skillBgColor: "#38b2ac5f",
+  },
+
+  // {
+  //   name: "Git",
+  //   icon: images.git,
+  //   skillBgColor: "#f34f295f",
+  // },
+  {
+    name: "Figma",
+    icon: images.figma,
+    skillBgColor: "#f24e1e5f",
   },
 ];
 
-export const experience = [
+export const backend = [
   {
-    startYear: '2020',
-    endYear: 'Present',
-    works: [
-      {
-        company: 'Starkweb Technologies / Abuja Nigeria',
-        name: 'MERN Stack Developer',
-        desc: `Converted various designs to actual code with HTML, CSS, JavaScript, React JS, Next.js, and REST API.`,
-      },
-    ],
+    name: "Node.js",
+    icon: images.node,
+    skillBgColor: "#68a0635f",
   },
   {
-    startYear: '2022',
-    endYear: '2022',
-    works: [
-      {
-        name: 'Tech Facilitator',
-        company: 'The Destiny Trust. / Lagos, Nigeria',
-        desc: 'Equipped the students with proper understanding of frontend development and various technologies involved',
-      },
-    ],
+    name: "Express.js",
+    icon: images.express,
+    skillBgColor: "#bababa5f",
   },
   {
-    startYear: '2021',
-    endYear: '2022',
-    works: [
-      {
-        name: 'Economics Teacher [NYSC]',
-        company: 'Government Girls Secondary School Abaji. / Abuja, Nigeria',
-        desc: 'Educated students about economics fundamentals, concepts, problems, and policies.',
-      },
-    ],
+    name: "REST API",
+    icon: images.api,
+    skillBgColor: "#bababab1",
+  },
+  {
+    name: "Postman",
+    icon: images.postman,
+    skillBgColor: "#ff6c375f",
+  },
+];
+
+export const mobile = [
+  {
+    name: "React Native",
+    icon: images.react,
+    skillBgColor: "#61dbfb5f",
+  },
+];
+export const Database = [
+  {
+    name: "Sql",
+    icon: images.sql,
+    skillBgColor: "#00758f5f",
+  },
+  {
+    name: "MongoDB",
+    icon: images.mongoDb,
+    skillBgColor: "#13aa52",
   },
 ];
