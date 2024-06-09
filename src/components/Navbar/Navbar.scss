@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 1rem 2rem;
   background: rgba(255, 255, 255, 0.25);
   // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -42,7 +41,7 @@
 }
 
 .app__navbar-links {
-  flex: 1;
+  // flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
