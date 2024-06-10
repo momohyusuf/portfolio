@@ -38,7 +38,7 @@ const Header = () => (
           <p className="p-text">Software developer</p>
           <button className="btn-grad">
             <a
-              href="https://drive.google.com/file/d/1zXs6Xa8x0Df8Ne6gzZx7HWIGVtWlEvDN/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PxjflzahwfSWp1HjSnLAEk-2H0EmtJcQ/view?usp=drive_link"
               download
             >
               Download CV
