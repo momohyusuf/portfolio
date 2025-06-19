@@ -1,9 +1,4 @@
-import {
-  IoLogoTwitter,
-  IoLogoGithub,
-  IoLogoLinkedin,
-  IoCallSharp,
-} from "react-icons/io5";
+import { IoLogoGithub, IoLogoLinkedin, IoCallSharp } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 export const socialMediaLinks = [
   {
@@ -17,11 +12,11 @@ export const socialMediaLinks = [
     icon: <IoLogoLinkedin />,
   },
 
-  {
-    link: "https://x.com/yusufmomohh",
-    title: "X",
-    icon: <IoLogoTwitter />,
-  },
+  // {
+  //   link: "https://x.com/yusufmomohh",
+  //   title: "X",
+  //   icon: <IoLogoTwitter />,
+  // },
 
   {
     link: "mailto:yusufmomoh6@gmail.com",

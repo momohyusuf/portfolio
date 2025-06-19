@@ -40,7 +40,7 @@ const Skills = () => {
   };
 
   return (
-    <>
+    <section style={{ margin: "6rem 0" }}>
       <h2 className="head-text">
         Skills
         <span
@@ -48,7 +48,8 @@ const Skills = () => {
             color: "#4b23cf",
           }}
         >
-          &
+          {" "}
+          &{" "}
         </span>
         Tools
       </h2>
@@ -74,7 +75,7 @@ const Skills = () => {
 
       {/* skills display */}
       {skillsDisplay(currentTab)}
-    </>
+    </section>
   );
 };
 

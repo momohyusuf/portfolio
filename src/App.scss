@@ -13,7 +13,6 @@
 
 .app__container {
   width: 100%;
-  min-height: 100vh;
 
   display: flex;
   flex-direction: row;
@@ -59,7 +58,7 @@
   text-transform: capitalize;
 
   span {
-    color: var(--secondary-color);
+    color: #4b23cf;
   }
 
   @media screen and (min-width: 2000px) {

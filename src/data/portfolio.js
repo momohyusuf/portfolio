@@ -2,80 +2,58 @@ export const portfolio = [
   {
     id: 1,
     imgUrl:
-      'https://res.cloudinary.com/starkweb/image/upload/v1672135451/my%20portfolio%20projects/images/Web_capture_27-12-2022_11215_localhost_ac3b1j.jpg',
-    name: 'Suffy Water',
-    projectLink: 'https://suffywater.netlify.app/',
-    codeLink: 'https://github.com/momohyusuf/suffy-water-clientSide.git',
+      "https://res.cloudinary.com/starkweb/image/upload/v1750317670/sa44hve0t7mjdvtsricg.png",
+    name: "Good-grades",
+    projectLink: "https://good-grades.net",
+    codeLink: null,
+    tags: [
+      "Fullstack",
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "DevOps",
+      "OpenAI",
+      "Payment Gateway",
+    ],
   },
   {
-    id: 2,
-    name: 'E-commerce Dashboard',
+    id: 1,
     imgUrl:
-      'https://res.cloudinary.com/starkweb/image/upload/v1671827418/my%20portfolio%20projects/images/ecom-dashboard_oigjo0.jpg',
-    projectLink: 'https://ecom-dashboardd.netlify.app/',
-    codeLink: 'https://github.com/momohyusuf/Dashboard.git',
-  },
-  {
-    id: 3,
-    name: 'Note Keeper',
-    imgUrl:
-      'https://res.cloudinary.com/starkweb/image/upload/v1671827417/my%20portfolio%20projects/images/note-keeper_auivxj.jpg',
-    projectLink: 'https://note-keeperr.netlify.app/',
-    codeLink: 'https://github.com/momohyusuf/Note-keeper.git',
-  },
-
-  {
-    id: 4,
-    name: 'Tweet-snapshot',
-    imgUrl:
-      'https://res.cloudinary.com/starkweb/image/upload/v1671827417/my%20portfolio%20projects/images/twee-snapshot_ygtpio.jpg',
-    projectLink: 'https://tweet-snapshoot.onrender.com/',
-    codeLink: 'https://github.com/momohyusuf/Tweet-Snapshoot.git',
-  },
-
-  //       {
-  //         name: 'Threads',
-  //         imgUrl: 'threadss.png',
-  //         projectLink: 'https://threadss.netlify.app/',
-  //         codeLink: 'https://github.com/starkweb108/threads.git',
-  //       },
-  //       {
-  //         name: 'Football App',
-  //         imgUrl: 'football-app.png',
-  //         projectLink: 'https://football-oclock.netlify.app/',
-  //         codeLink: 'https://github.com/starkweb108/football-app.git',
-  //       },
-  //   {
-  //     name: 'E-commerce store',
-  //     imgUrl: 'https://res.cloudinary.com/starkweb/image/upload/v1671827417/my%20portfolio%20projects/images/ecommerce-app_eazweo.jpg',
-  //     projectLink: 'https://fit-in-stores.netlify.app/',
-  //     codeLink: 'https://github.com/starkweb108/e-commerce-sport-store.git',
-  //   },
-
-  {
-    id: 6,
-    name: 'Quote Generator',
-    imgUrl:
-      'https://res.cloudinary.com/starkweb/image/upload/v1671827416/my%20portfolio%20projects/images/advice-app_mbim8k.jpg',
-    projectLink: 'https://quotes-generating.netlify.app/',
-    codeLink: 'https://github.com/momohyusuf/Random-quote-generator.git',
-  },
-  {
-    id: 7,
-    name: 'Loopstudios Landing page',
-    imgUrl:
-      'https://res.cloudinary.com/starkweb/image/upload/v1671827418/my%20portfolio%20projects/images/loopstudio_mo5o43.jpg',
-    projectLink: 'https://starkwebproject10.netlify.app/',
+      "https://res.cloudinary.com/starkweb/image/upload/v1750317676/wte6t3rimnhl1gfntqas.png",
+    name: "Ai Content Manager",
+    projectLink: "https://x.com/AgricZone",
     codeLink:
-      'https://github.com/momohyusuf/Frontend-Mentor-Loopstudios-landing-page.git',
+      "https://github.com/momohyusuf/Social-Media-Auto-Poster-with-AI.git",
+    tags: ["Backend", "Node.js", "DevOps", "Google AI"],
+  },
+  {
+    id: 1,
+    imgUrl:
+      "https://res.cloudinary.com/starkweb/image/upload/v1750317681/dohxcprqmmhdtedqbps7.png",
+    name: "Starkweb Technologies",
+    projectLink: "https://starkwebtechnologies.com",
+    codeLink: null,
+    tags: ["Frontend", "Next.js", "DevOps"],
   },
 
   {
-    id: 8,
-    name: 'Bookmark Landing page',
+    id: 1,
     imgUrl:
-      'https://res.cloudinary.com/starkweb/image/upload/v1671827416/my%20portfolio%20projects/images/bookmark-landing_wwhjsn.jpg',
-    projectLink: 'https://bookmarking-landing-page.netlify.app/',
-    codeLink: 'https://github.com/momohyusuf/bookmark-landing-page-master.git',
+      "https://res.cloudinary.com/starkweb/image/upload/v1750322525/dtpok1rtopamuubezjcj.png",
+    name: "Mern Scaffold",
+    projectLink: "https://www.npmjs.com/package/mern-scaffold",
+    codeLink: "https://github.com/momohyusuf/MERN-scaffold.git",
+    tags: ["Backend", "Node.js", "Productivity", "CLI"],
+  },
+
+  {
+    id: 1,
+    imgUrl:
+      "https://res.cloudinary.com/starkweb/image/upload/v1750324351/cllxmdepqyzr0hm5oqyf.png",
+    name: "Comment Code",
+    projectLink:
+      "https://marketplace.visualstudio.com/items?itemName=starkweb-technologies.comment-code",
+    codeLink: "https://github.com/momohyusuf/comment-code.git",
+    tags: ["Backend", "Extensions", "Node.js", "Productivity", "Google AI"],
   },
 ];

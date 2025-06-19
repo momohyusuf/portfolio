@@ -20,18 +20,36 @@ const About = () => {
           transition={{ duration: 0.5, type: "tween" }}
           className="app__profile-item"
         >
-          <img src={images.code} alt="Momoh Yusuf" />
+          <img
+            src={
+              "https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F09%2FUntitled-design-14.jpg&signature=3de86691d6ab8d950654a02334fd2774"
+            }
+            alt="Momoh Yusuf"
+          />
           <h2 className="bold-text" style={{ marginTop: 20 }}>
             About Me
           </h2>
           <p className="p-text" style={{ marginTop: 10 }}>
-            Dependable self-motivated software developer. with a passion for
-            building innovative and intuitive solutions to complex problems.
-            With over 3 years of experience in Frontend development, Mobile app
-            development, Backend development, and Database I am constantly
-            seeking new challenges and opportunities to learn and grow as a
-            developer. If you have a project that could benefit from my skills
-            and experience, I would love to hear more about it.
+            <span
+              style={{
+                color: "white",
+                fontSize: "2rem",
+                fontWeight: "bold",
+                marginRight: "0.5rem",
+              }}
+            >
+              A
+            </span>{" "}
+            Solution oriented Fullstack Developer with over 5 years of hands-on
+            experience building dynamic, responsive, and scalable web
+            applications. Skilled in both front-end and back-end development.
+            With deep understanding of modern web development practices, I craft
+            efficient, well-architected systems with clean, maintainable code.
+            My expertise spans building RESTful APIs, implementing user-friendly
+            UIs, integrating databases, and optimising performance for
+            fast-loading websites. Whether working on collaborative projects or
+            independently, I thrive in environments where innovation,
+            problem-solving, and attention to details are critical.
           </p>
         </motion.div>
       </div>

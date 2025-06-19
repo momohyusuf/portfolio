@@ -22,7 +22,7 @@ import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
-import code from "../assets/code.jpg";
+// import code from "../assets/code.jpg";
 
 import profile from "../assets/profile.gif";
 import circle from "../assets/circle.jpeg";
@@ -35,19 +35,27 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
-import express from "../assets/icons8-express-js-480.png";
+// import express from "../assets/icons8-express-js-480.png";
 import sql from "../assets/icons8-sql-100.png";
 import mongoDb from "../assets/icons8-mongodb-480.png";
 import postman from "../assets/postman.png";
+import redis from "../assets/redis.png";
+import firebase from "../assets/firebase.svg";
+import docker from "../assets/docker.webp";
+import aws from "../assets/aws.png";
 
 export default {
   postman,
-  express,
+  // express,
+  redis,
+  firebase,
+  docker,
+  aws,
   sql,
   mongoDb,
   email,
   mobile,
-  code,
+  // code,
   api,
   cpp,
   css,

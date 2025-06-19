@@ -77,6 +77,26 @@ export const backend = [
     icon: images.postman,
     skillBgColor: "#ff6c375f",
   },
+  {
+    name: "GraphQL",
+    icon: images.graphql,
+    skillBgColor: "#e10098",
+  },
+  {
+    name: "Redis",
+    icon: images.redis,
+    skillBgColor: "#dc382f5f",
+  },
+  {
+    name: "Docker",
+    icon: images.docker,
+    skillBgColor: "#2496ed5f",
+  },
+  {
+    name: "AWS",
+    icon: images.aws,
+    skillBgColor: "#ff99005f",
+  },
 ];
 
 export const mobile = [
@@ -96,5 +116,11 @@ export const Database = [
     name: "MongoDB",
     icon: images.mongoDb,
     skillBgColor: "#13aa52",
+  },
+
+  {
+    name: "Firebase",
+    icon: images.firebase,
+    skillBgColor: "#ffca28",
   },
 ];
