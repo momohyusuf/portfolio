@@ -33,7 +33,7 @@ const Header = () => (
             <p className="p-text">Fullstack Software Developer</p>
             <button className="btn-grad">
               <a
-                href="https://drive.google.com/file/d/1PxjflzahwfSWp1HjSnLAEk-2H0EmtJcQ/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1WRP-drS03bybrklSTOG8rmkfFLQ5K7G0/view?usp=sharing"
                 download
               >
                 <span> View Resume</span>
