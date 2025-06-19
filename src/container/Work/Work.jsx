@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 
 import { motion } from "framer-motion";
 
+import { AppWrap } from "../../wrapper";
+
 import "./Work.scss";
 import { portfolio } from "../../data/portfolio";
 import WorkCard from "./WorkCard";
