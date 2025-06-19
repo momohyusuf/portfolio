@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
-
+import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-import { AppWrap } from "../../wrapper";
-
+import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Work.scss";
 import { portfolio } from "../../data/portfolio";
 import WorkCard from "./WorkCard";
 
 const Work = () => {
+  const [selectedId, setSelectedId] = useState(null);
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
+  const [filterWork, setFilterWork] = useState(portfolio);
 
   return (
     <section id="projects">
@@ -46,4 +47,4 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work, "projects");
+export default Work;
